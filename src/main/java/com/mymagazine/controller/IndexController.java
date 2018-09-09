@@ -10,9 +10,23 @@ import javax.servlet.http.HttpServletRequest;
 public class IndexController {
 
     @GetMapping(value = "/")
+    public String home(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
+
+        System.out.println("Home Page");
+        return "index";
+    }
+
+    @GetMapping(value = "/index")
     public String index(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
 
         System.out.println("Home Page");
         return "index";
+    }
+
+    @GetMapping(value = "/single")
+    public String single(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
+
+        System.out.println("Single Page");
+        return "single";
     }
 }
