@@ -12,6 +12,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.sql.DataSource;
 
@@ -19,6 +20,7 @@ import javax.sql.DataSource;
 @MapperScan("com.mymagazine.dao")
 @SpringBootApplication(scanBasePackages = {"com.mymagazine"})
 @EnableTransactionManagement
+@EnableSwagger2
 public class MyMagazineApplication {
 
     @Bean(initMethod = "init", destroyMethod = "close")
