@@ -16,13 +16,14 @@ import java.util.List;
 @SpringBootTest
 public class MyMagazineApplicationTests {
 
-    @Autowired
-    private IUserService usersService;
+    //@Autowired
+    //private IUserService usersService;
 
     @Test
     public void contextLoads() {
     }
 
+    /*
     @Test
     public void testInsertUser() {
         User user = new User();
@@ -100,4 +101,5 @@ public class MyMagazineApplicationTests {
         long i = usersService.countAllUsers();
         print(i);
     }
+    */
 }

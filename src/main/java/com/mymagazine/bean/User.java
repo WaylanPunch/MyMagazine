@@ -1,7 +1,10 @@
 package com.mymagazine.bean;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 import java.io.Serializable;
 
+//@ConfigurationProperties(prefix = "user")
 public class User implements Serializable {
     /**
      * user表主键

@@ -16,7 +16,7 @@ public class IndexController {
 
 //    @ApiOperation(value="站点首页", notes="站点首页")
     //@ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
-    @GetMapping(value = "/")
+    @GetMapping(value = {"/", "/index","/index.html"})
     public String home(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
         LOGGER.info("Home Page");
         return "index";
@@ -24,11 +24,11 @@ public class IndexController {
 
 //    @ApiOperation(value="站点首页", notes="站点首页")
     //@ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
-    @GetMapping(value = "/index")
-    public String index(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
-        LOGGER.info("Home Page");
-        return "index";
-    }
+//    @GetMapping(value = "/index")
+//    public String index(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
+//        LOGGER.info("Home Page");
+//        return "index";
+//    }
 
 //    @ApiOperation(value="文章页面", notes="文章页面")
 //    @ApiImplicitParam(name = "limit", value = "不不不", required = false, dataType = "Integer", paramType = "path")
