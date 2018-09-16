@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <!--[if IE 9 ]>
-<html class="ie9"><![endif]-->
+<html class="ie9" xmlns:th="http://www.thymeleaf.org"><![endif]-->
 <head th:fragment="thehead(title,active)">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,7 +48,7 @@
     <div class="logo">
         <a href="index.html" class="hidden-xs">
             Magazine
-            <small>Admin Manegment</small>
+            <small>Admin Management</small>
         </a>
         <i class="logo__trigger zmdi zmdi-menu" data-mae-action="block-open" data-mae-target="#navigation"></i>
     </div>
@@ -376,13 +376,25 @@
                 <a th:href="@{/admin/articles/publish}"><i class="zmdi zmdi-format-underlined"></i>Publish</a>
             </li>
             <li th:class="${active}=='articles'?'navigation__active':''">
-                <a th:href="@{/admin/articles}"><i class="zmdi zmdi-widgets"></i> Articles</a>
+                <a th:href="@{/admin/articles}"><i class="zmdi zmdi-edit zmdi-hc-fw"></i> Articles</a>
+            </li>
+            <li th:class="${active}=='categories'?'navigation__active':''">
+                <a th:href="@{/admin/categories}"><i class="zmdi zmdi-layers zmdi-hc-fw"></i> Categories</a>
+            </li>
+            <li th:class="${active}=='tags'?'navigation__active':''">
+                <a th:href="@{/admin/tags}"><i class="zmdi zmdi-tag zmdi-hc-fw"></i> Tags</a>
             </li>
             <li th:class="${active}=='comments'?'navigation__active':''">
-                <a th:href="@{/admin/comments}"><i class="zmdi zmdi-view-list"></i> Comments</a>
+                <a th:href="@{/admin/comments}"><i class="zmdi zmdi-comment-text zmdi-hc-fw"></i> Comments</a>
             </li>
             <li th:class="${active}=='files'?'navigation__active':''">
-                <a th:href="@{/admin/files}"><i class="zmdi zmdi-swap-alt"></i>Files</a>
+                <a th:href="@{/admin/files}"><i class="zmdi zmdi-cloud-upload zmdi-hc-fw"></i>Files</a>
+            </li>
+            <li th:class="${active}=='logs'?'navigation__active':''">
+                <a th:href="@{/admin/logs}"><i class="zmdi zmdi-calendar-alt zmdi-hc-fw"></i>Logs</a>
+            </li>
+            <li th:class="${active}=='users'?'navigation__active':''">
+                <a th:href="@{/admin/users}"><i class="zmdi zmdi-pin-account zmdi-hc-fw"></i>Users</a>
             </li>
         </ul>
     </div>

@@ -1,6 +1,6 @@
 package com.mymagazine.controller.admin;
 
-import com.mymagazine.bean.RestResponse;
+import com.mymagazine.bean.ResponseResult;
 import com.mymagazine.bean.User;
 import com.mymagazine.exception.TipException;
 import com.mymagazine.service.IUserService;
@@ -44,6 +44,7 @@ public class AuthController {
 
     /**
      * 登录
+     *
      * @param username
      * @param password
      * @param rememberme
@@ -53,12 +54,13 @@ public class AuthController {
      */
     @PostMapping(value = "/signin")
     @ResponseBody
-    public RestResponse signin(@RequestParam("username") String username,
-                                @RequestParam("password") String password,
-                                @RequestParam(value = "rememberme",required = false) String rememberme,
-                                org.apache.catalina.servlet4preview.http.HttpServletRequest request,
-                                HttpServletResponse response) {
+    public ResponseResult signin(@RequestParam("username") String username,
+                                 @RequestParam("password") String password,
+                                 @RequestParam(value = "rememberme", required = false) String rememberme,
+                                 org.apache.catalina.servlet4preview.http.HttpServletRequest request,
+                                 HttpServletResponse response) {
 
+        String msg = "";
         //Integer error_count = cache.get("login_error_count");
         try {
             User user = usersService.login(username, password);
@@ -66,6 +68,7 @@ public class AuthController {
             if (!StringUtils.isEmpty(rememberme)) {
                 MagazineUtil.setCookie(response, user.getUid());
             }
+            msg = "登录成功";
             //logService.insertLog(LogActions.LOGIN.getAction(), null, request.getRemoteAddr(), user.getUid());
         } catch (Exception e) {
 //            error_count = null == error_count ? 1 : error_count + 1;
@@ -73,19 +76,20 @@ public class AuthController {
 //                return RestResponse.fail("您输入密码已经错误超过3次，请10分钟后尝试");
 //            }
             //cache.set("login_error_count", error_count, 10 * 60);
-            String msg = "登录失败";
+            msg = "登录失败";
             if (e instanceof TipException) {
                 msg = e.getMessage();
             } else {
                 LOGGER.error(msg, e);
             }
-            return RestResponse.fail(msg);
+            return new ResponseResult(401, msg, null);
         }
-        return RestResponse.ok();
+        return new ResponseResult(200, msg, null);
     }
 
     /**
      * 注销
+     *
      * @param session
      * @param response
      * @param request

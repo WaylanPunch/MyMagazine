@@ -8,7 +8,7 @@
 
 
 
-## 1. Preview
+## 1. Front-end Preview
 
 ### 1.1. Home Page
 
@@ -17,6 +17,13 @@
 ### 1.2. Single Page
 
 ![single](https://raw.githubusercontent.com/WaylanPunch/MyMagazine/master/files/magazine-01.PNG)
+
+## 2. Back-end Preview
+
+![admin management](https://raw.githubusercontent.com/WaylanPunch/MyMagazine/master/files/magazine-02.PNG)
+
+![404 error](https://raw.githubusercontent.com/WaylanPunch/MyMagazine/master/files/magazine-03.PNG)
+
 
 ### To Be Continue......
 
