@@ -16,11 +16,11 @@ public interface IUserService {
     Integer insertUser(User user);
 
     /**
-     * 通过id查找对象
+     * 通过uid查找对象
      * @param uid
      * @return
      */
-    User selectUserByUid(Integer uid);
+    User queryUserById(Integer uid);
 
     /**
      * 用戶登录
@@ -35,11 +35,5 @@ public interface IUserService {
      * @param user
      * @return
      */
-    Integer updateUserByUid(User user);
-
-    List<User> selectAllUsers();
-
-    Integer deleteByUid(Integer uid);
-
-    Long countAllUsers();
+    void updateByUid(User user);
 }

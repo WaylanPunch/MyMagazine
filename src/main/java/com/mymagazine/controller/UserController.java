@@ -1,38 +1,29 @@
 package com.mymagazine.controller;
 
+import com.mymagazine.bean.RestResponse;
 import com.mymagazine.bean.User;
+import com.mymagazine.exception.TipException;
 import com.mymagazine.service.IUserService;
+import com.mymagazine.util.MagazineUtil;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import org.apache.catalina.servlet4preview.http.HttpServletRequest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
-    @Autowired
-    private IUserService usersService;
-
-//    @ApiOperation(value="获取用户详细信息", notes="根据url的id来获取用户详细信息")
-//    @ApiImplicitParam(name = "uid", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
-    @GetMapping("/{uid}")
-    public User selectUser(@PathVariable("uid") Integer uid) {
-        return usersService.selectUserByUid(uid);
-    }
-
-//    @ApiOperation(value="更新信息", notes="根据user的id来指定更新用户信息")
-//    @ApiImplicitParams({
-//            @ApiImplicitParam(name = "uid", value = "用户ID", required = true, dataType = "Long",paramType = "path"),
-//            @ApiImplicitParam(name = "user", value = "用户实体user", required = true, dataType = "User")
-//    })
-    @PutMapping("/{uid}")
-    public User updateUser(@PathVariable("uid") Long uid, @RequestBody User user) {
-        // TODO
-        return null;
-    }
 
 }

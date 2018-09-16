@@ -1,6 +1,7 @@
 package com.mymagazine.dao;
 
 import com.mymagazine.bean.User;
+import com.mymagazine.bean.UserCondition;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -9,32 +10,26 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
 
-    long count();
+    long countByCondition(UserCondition condition);
 
-    int checkUserIfExists(@Param("username") String username);
+    int deleteByCondition(UserCondition condition);
 
-    //int deleteByExample(UserVoExample example);
+    int deleteByPrimaryKey(Integer uid);
 
-    int deleteByUid(@Param("uid") Integer uid);
+    int insert(User user);
 
-    int insertUser(@Param("user") User user);
+    int insertSelective(User user);
 
-    //int insertSelective(User record);
+    List<User> selectByCondition(UserCondition condition);
 
-    //List<User> selectByExample(User user);
+    User selectByPrimaryKey(Integer uid);
 
-    List<User> selectAllUsers();
+    int updateByConditionSelective(@Param("user") User user, @Param("condition") UserCondition condition);
 
-    User selectUserByUid(@Param("uid") Integer uid);
+    int updateByCondition(@Param("user") User user, @Param("condition") UserCondition condition);
 
-    User selectUserByUserAndPassword(@Param("username") String username, @Param("password") String password);
+    int updateByPrimaryKeySelective(User user);
 
-    //int updateByExampleSelective(@Param("record") User record, @Param("example") UserVoExample example);
-
-    int updateUserByUid(@Param("user") User user);
-
-    //int updateByPrimaryKeySelective(User record);
-
-    //int updateByPrimaryKey(User record);
+    int updateByPrimaryKey(User user);
 
 }

@@ -16,7 +16,7 @@ public class IndexController {
 
 //    @ApiOperation(value="站点首页", notes="站点首页")
     //@ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer", paramType = "path")
-    @GetMapping(value = {"/", "/index","/index.html"})
+    @GetMapping(value = {"/", "/index"})
     public String home(HttpServletRequest request, @RequestParam(value = "limit", defaultValue = "12") int limit) {
         LOGGER.info("Home Page");
         return "index";
