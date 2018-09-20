@@ -19,6 +19,12 @@ public class MyMagazineApplicationTests {
     //@Autowired
     //private IUserService usersService;
 
+//    @Autowired
+//    private StringRedisTemplate stringRedisTemplate;
+//
+//    @Autowired
+//    private RedisTemplate redisTemplate;
+
     @Test
     public void contextLoads() {
     }
@@ -100,6 +106,29 @@ public class MyMagazineApplicationTests {
     public void testCountAllUsers() {
         long i = usersService.countAllUsers();
         print(i);
+    }
+    */
+
+    /*
+    @Test
+    public void testStringRedisTemplate() {
+        stringRedisTemplate.opsForValue().append("msg", "hello");
+        String msg = stringRedisTemplate.opsForValue().get("msg");
+        System.out.println(msg);
+    }
+
+    @Test
+    public void testRedisTemplate() {
+
+        User user = new User();
+        user.setUid(1);
+        user.setUsername("admin");
+        user.setPassword("password");
+        redisTemplate.opsForValue().set("user-1", user);
+
+        redisTemplate.opsForValue().set("topic","hello world");
+        String msg = redisTemplate.opsForValue().get("topic").toString();
+        System.out.println(msg);
     }
     */
 }

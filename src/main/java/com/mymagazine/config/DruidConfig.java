@@ -24,7 +24,7 @@ import javax.sql.DataSource;
 @ServletComponentScan //用于扫描所有的Servlet、filter、listener
 public class DruidConfig {
 
-    @Bean(initMethod = "init", destroyMethod = "close")
+    @Bean
     @ConfigurationProperties(prefix = "spring.datasource")
     public DataSource dataSource() {
         return new DruidDataSource();

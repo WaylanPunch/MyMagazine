@@ -9,6 +9,8 @@ import com.mymagazine.util.MagazineUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
@@ -16,6 +18,7 @@ import org.springframework.util.StringUtils;
 import javax.annotation.Resource;
 import java.util.List;
 
+//@CacheConfig(cacheNames = "users")
 @Service
 public class UserService implements IUserService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserService.class);
@@ -36,6 +39,7 @@ public class UserService implements IUserService {
         return user.getUid();
     }
 
+    //@Cacheable(keyGenerator = "magazineCacheKey", unless = "#result==null")
     @Override
     public User queryUserById(Integer uid) {
         User user = null;
