@@ -25,8 +25,13 @@ import javax.sql.DataSource;
 public class MyMagazineApplication {
 
 
-
     public static void main(String[] args) {
         SpringApplication.run(MyMagazineApplication.class, args);
+
+        /*取消定义的Banner
+        SpringApplication springApplication = new SpringApplication(MyMagazineApplication.class);
+        springApplication.setBannerMode(Banner.Mode.OFF);
+        springApplication.run(args);
+        */
     }
 }

@@ -30,7 +30,7 @@ public class AuthController {
     //    @Resource
 //    private ILogService logService;
 
-    @GetMapping
+    @GetMapping(value = {"/index"})
     public String index() {
         LOGGER.info("Admin Home Page");
         return "admin/index";

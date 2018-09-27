@@ -32,6 +32,11 @@ public class User implements Serializable {
     private String homeUrl;
 
     /**
+     * 用户的头像
+     */
+    private String avatar;
+
+    /**
      * 用户显示的名称
      */
     private String screenName;
@@ -96,6 +101,14 @@ public class User implements Serializable {
 
     public void setHomeUrl(String homeUrl) {
         this.homeUrl = homeUrl;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 
     public String getScreenName() {
