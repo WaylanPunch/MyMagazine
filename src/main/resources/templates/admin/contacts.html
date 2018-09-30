@@ -40,17 +40,20 @@
 
             <div class="action-header action-header--dark">
                 <ul class="action-header__menu action-header__menu--padding">
-                    <li th:class="${topactive}=='connected'?'active':''">
-                        <a th:href="@{/admin/contacts}">Connected</a>
+                    <li id="liConnectedActive" class="active">
+                        <a onclick="goConnected()">Connected</a>
                     </li>
-                    <li th:class="${topactive}=='recommended'?'active':''">
-                        <a th:href="@{/admin/contacts/recommended}">Recommended</a>
+                    <li id="liRecommendedActive" class="">
+                        <a onclick="goRecommended()">Recommended</a>
                     </li>
-                    <li th:class="${topactive}=='requested'?'active':''">
-                        <a th:href="@{/admin/contacts/requested}">Requested</a>
+                    <li id="liRequestedActive" class="">
+                        <a onclick="goRequested()">Requested</a>
                     </li>
                     <li>
-                        <a id="aContactsCount" th:text="${users.size()}"></a>
+                        <a id="aContactsCount"></a>
+                    </li>
+                    <li>
+                        <input id="inputContactsActive" type="hidden" value="" />
                     </li>
                 </ul>
 
@@ -103,33 +106,102 @@
                 </div>
             </div>
 
-            <div class="contacts row" id="divContactsRow">
 
-                <th:block th:each="user:${users}">
-                    <div class="col-md-2 col-sm-4">
-                        <div class="contacts__item">
-                            <a href="" class="contacts__img">
-                                <img th:src="${user.avatar}" alt="">
-                            </a>
+            <div id="divConnectedContent" style="display: block">
+                <div class="contacts row" id="divConnectedRow">
 
-                            <div class="contacts__info">
-                                <strong th:text="${user.username}"></strong>
-                                <small th:text="${user.email}"></small>
+                    <!--
+                    <th:block th:each="user:${users}">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="contacts__item">
+                                <a href="" class="contacts__img">
+                                    <img th:src="${user.avatar}" alt="">
+                                </a>
+
+                                <div class="contacts__info">
+                                    <strong th:text="${user.username}"></strong>
+                                    <small th:text="${user.email}"></small>
+                                </div>
+
+                                <button class="contacts__btn btn btn&#45;&#45;icon-text btn&#45;&#45;light"><i
+                                        class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
+                                </button>
                             </div>
-
-                            <button class="contacts__btn btn btn--icon-text btn--light"><i
-                                    class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
-                            </button>
                         </div>
-                    </div>
-                </th:block>
+                    </th:block>
+                    -->
 
 
+                </div>
+
+                <div class="text-center m-t-20">
+                    <a class="btn btn--icon-text btn-default" onclick="onLoadMore()"><i
+                            class="zmdi zmdi-refresh-alt"></i> Load More...</a>
+                </div>
             </div>
 
-            <div class="text-center m-t-20">
-                <a class="btn btn--icon-text btn-default" onclick="onLoadMore()"><i class="zmdi zmdi-refresh-alt"></i> Load More...</a>
+            <div id="divRecommendedContent" style="display: none">
+                <div class="contacts row" id="divRecommendedRow">
+
+                    <!--<th:block th:each="user:${users}">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="contacts__item">
+                                <a href="" class="contacts__img">
+                                    <img th:src="${user.avatar}" alt="">
+                                </a>
+
+                                <div class="contacts__info">
+                                    <strong th:text="${user.username}"></strong>
+                                    <small th:text="${user.email}"></small>
+                                </div>
+
+                                <button class="contacts__btn btn btn&#45;&#45;icon-text btn&#45;&#45;light"><i
+                                        class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
+                                </button>
+                            </div>
+                        </div>
+                    </th:block>-->
+
+                </div>
+
+                <div class="text-center m-t-20">
+                    <a class="btn btn--icon-text btn-default" onclick="onRefresh()"><i
+                            class="zmdi zmdi-refresh-alt"></i> Refresh </a>
+                </div>
             </div>
+
+            <div id="divRequestedContent" style="display: none">
+                <div class="contacts row" id="divRequestedRow">
+
+                    <!--<th:block th:each="user:${users}">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="contacts__item">
+                                <a href="" class="contacts__img">
+                                    <img th:src="${user.avatar}" alt="">
+                                </a>
+
+                                <div class="contacts__info">
+                                    <strong th:text="${user.username}"></strong>
+                                    <small th:text="${user.email}"></small>
+                                </div>
+
+                                <button class="contacts__btn btn btn&#45;&#45;icon-text btn&#45;&#45;light"><i
+                                        class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
+                                </button>
+                            </div>
+                        </div>
+                    </th:block>-->
+
+
+                </div>
+
+                <!--<div class="text-center m-t-20">
+                    <a class="btn btn&#45;&#45;icon-text btn-default" onclick="onLoadMore()"><i
+                            class="zmdi zmdi-refresh-alt"></i> Load More...</a>
+                </div>-->
+            </div>
+
+
         </div>
     </section>
 
