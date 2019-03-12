@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Logs',active='logs'">
+<!--[if IE 9 ]>
+<html class="ie9" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Logs',active='logs'">
+<![endif]-->
+<head th:replace="admin/header::thehead(${title},${active})"/>
+
+<body>
+
+<!-- Page Loader -->
+<div th:replace="admin/header::thepageloader"></div>
+
+<!-- Header -->
+<header th:replace="admin/header::theheader"></header>
+
+<section id="main">
+
+    <aside th:replace="admin/header::thenotifications"></aside>
+
+    <aside th:replace="admin/header::thenavigation"></aside>
+
+    <section id="content">
+        <div class="content--boxed">
+            <div class="content__header">
+                <h2>Logs</h2>
+
+                <div class="actions">
+                    <a href=""><i class="zmdi zmdi-check-all"></i></a>
+                    <a href=""><i class="zmdi zmdi-trending-up"></i></a>
+                    <div class="dropdown">
+                        <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="">Change Date Range</a></li>
+                            <li><a href="">Change Graph Type</a></li>
+                            <li><a href="">Other Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="action-header">
+                    <div class="action-header__label">Total <span class="hidden-xs">150</span> Logs</div>
+
+                    <div class="action-header__search">
+                        <input type="text" placeholder="Start typing..." class="action-header__input">
+                        <i class="action-header__close zmdi zmdi-long-arrow-left"></i>
+                    </div>
+
+                    <div class="actions action-header__actions">
+                        <a href="" class="action-header__toggle"><i class="zmdi zmdi-search"></i></a>
+                        <a href=""><i class="zmdi zmdi-time"></i></a>
+
+                        <div class="dropdown">
+                            <a href="" data-toggle="dropdown">
+                                <i class="zmdi zmdi-sort"></i>
+                            </a>
+
+                            <ul class="dropdown-menu pull-right">
+                                <li>
+                                    <a href="">Last Modified</a>
+                                </li>
+                                <li>
+                                    <a href="">Last Edited</a>
+                                </li>
+                                <li>
+                                    <a href="">Name</a>
+                                </li>
+                                <li>
+                                    <a href="">Date</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href=""><i class="zmdi zmdi-info"></i></a>
+
+                        <div class="dropdown">
+                            <a href="" data-toggle="dropdown">
+                                <i class="zmdi zmdi-more-vert"></i>
+                            </a>
+
+                            <ul class="dropdown-menu pull-right">
+                                <li>
+                                    <a href="">Refresh</a>
+                                </li>
+                                <li>
+                                    <a href="">Listview Settings</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-group list-group--striped">
+
+                    <!--"list-group-item medi" for one item-->
+                    <div class="list-group-item media">
+                        <div class="checkbox pull-left list-group__checkbox">
+                            <label>
+                                <input type="checkbox">
+                                <i class="input-helper"></i>
+                            </label>
+                        </div>
+
+                        <div class="pull-left">
+                            <div class="avatar-char">D</div>
+                        </div>
+
+                        <div class="pull-right">
+                            <div class="actions">
+                                <div class="dropdown">
+                                    <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
+
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media-body">
+                            <div class="list-group__heading">Donec congue tempus ligula, varius hendrerit mi hendrerit
+                                sit amet. Duis ac quam sit amet leo feugiat iaculis
+                            </div>
+                            <small class="list-group__text">An erant explicari salutatus duo, sumo doming delicata in
+                                cum. Eos at augue viderer principes
+                            </small>
+
+                            <span class="list-group__attrs">
+                                        <span>Date Created: 09/06/1988</span>
+                                        <span>Members: 78954</span>
+                                        <span>Published: No</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center p-30">
+                    <ul class="pagination">
+                        <li><a href=""><i class="zmdi zmdi-long-arrow-left"></i></a></li>
+                        <li class="active"><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li><a href=""><i class="zmdi zmdi-long-arrow-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer th:replace="admin/footer::thefooter"></footer>
+
+</section>
+
+<div th:replace="admin/footer :: thebottom"></div>
+
+<script th:src="@{/admin/js/logspage.js}"></script>
+</body>
+</html>
