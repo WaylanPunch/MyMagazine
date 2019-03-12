@@ -1,0 +1,12 @@
+2018-09-26 01:31:57,926 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users where uid = ? 
+2018-09-26 01:31:58,118 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-09-26 01:31:58,137 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-26 01:32:37,543 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users where uid = ? 
+2018-09-26 01:32:37,544 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-09-26 01:32:37,546 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-26 01:32:43,567 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users where uid = ? 
+2018-09-26 01:32:43,567 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-09-26 01:32:43,569 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-26 01:33:13,080 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 9856 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-26 01:33:13,081 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-26 01:33:13,083 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,12 @@
+2018-09-21 00:32:00,612 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-21 00:32:00,619 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users WHERE ( username = ? and password = ? ) 
+2018-09-21 00:32:00,621 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), a66abb5684c45962d887564f08346e8d(String)
+2018-09-21 00:32:00,623 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-21 00:32:14,993 INFO (AuthController.java:35)- Admin Home Page
+2018-09-21 00:32:18,917 INFO (AuthController.java:35)- Admin Home Page
+2018-09-21 00:32:22,270 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users where uid = ? 
+2018-09-21 00:32:22,280 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-09-21 00:32:22,282 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-21 00:32:58,027 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 15792 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-21 00:32:58,027 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 00:32:58,028 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

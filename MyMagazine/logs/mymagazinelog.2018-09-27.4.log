@@ -1,0 +1,8 @@
+2018-09-27 21:16:01,084 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 2.931 seconds (JVM running for 2160.657)
+2018-09-27 21:17:22,617 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 7288 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-27 21:17:22,617 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-27 21:17:22,618 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-27 21:17:24,419 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 1.829 seconds (JVM running for 2243.991)
+2018-09-27 21:19:18,893 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 7288 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-27 21:19:18,894 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-27 21:19:18,894 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

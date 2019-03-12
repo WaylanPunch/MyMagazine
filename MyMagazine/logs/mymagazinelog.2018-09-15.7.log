@@ -1,0 +1,15 @@
+2018-09-15 14:44:07,478 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 6.879 seconds (JVM running for 7.664)
+2018-09-15 14:44:11,387 INFO (AuthController.java:19)- Admin Home Page
+2018-09-15 14:44:29,709 INFO (AuthController.java:19)- Admin Home Page
+2018-09-15 14:44:44,409 INFO (AuthController.java:19)- Admin Home Page
+2018-09-15 17:10:14,736 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 16708 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-15 17:10:14,737 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-15 17:10:14,739 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-15 17:10:20,813 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 6.494 seconds (JVM running for 7.203)
+2018-09-15 17:10:32,811 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 9572 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-15 17:10:32,813 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-15 17:10:32,815 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-15 17:10:37,296 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 16708 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-15 17:10:37,297 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-15 17:10:37,297 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-15 17:10:42,368 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 5.114 seconds (JVM running for 28.756)

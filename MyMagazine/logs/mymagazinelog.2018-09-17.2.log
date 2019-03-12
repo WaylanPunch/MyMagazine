@@ -1,0 +1,6 @@
+2018-09-17 22:48:47,138 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-09-17 22:48:47,172 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-17 22:48:47,176 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users WHERE ( username = ? and password = ? ) 
+2018-09-17 22:48:47,178 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), a66abb5684c45962d887564f08346e8d(String)
+2018-09-17 22:48:47,180 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-17 23:09:27,907 INFO (AuthController.java:35)- Admin Home Page

@@ -1,0 +1,4 @@
+2018-09-21 00:33:00,309 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 2.324 seconds (JVM running for 149.078)
+2018-09-21 00:33:00,499 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users where uid = ? 
+2018-09-21 00:33:00,501 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-09-21 00:33:00,504 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

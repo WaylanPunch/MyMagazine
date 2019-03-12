@@ -1,0 +1,10 @@
+2018-09-16 09:42:59,971 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 6.891 seconds (JVM running for 7.805)
+2018-09-16 09:43:05,261 INFO (IndexController.java:21)- Home Page
+2018-09-16 09:43:13,281 INFO (AuthController.java:35)- Admin Home Page
+2018-09-16 09:43:18,839 INFO (AuthController.java:41)- Admin Login Page
+2018-09-16 09:43:28,374 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from t_users WHERE ( username = ? ) 
+2018-09-16 09:43:28,396 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-09-16 09:43:28,422 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-16 09:43:28,426 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select uid, username, password, email, home_url, screen_name, created, activated, logged, group_name from t_users WHERE ( username = ? and password = ? ) 
+2018-09-16 09:43:28,427 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), a66abb5684c45962d887564f08346e8d(String)
+2018-09-16 09:43:28,428 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

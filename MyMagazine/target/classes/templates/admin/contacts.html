@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Contacts',active='contacts'">
+<!--[if IE 9 ]>
+<html class="ie9" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Contacts',active='contacts'">
+<![endif]-->
+<head th:replace="admin/header::thehead(${title},${active})"/>
+
+
+<body>
+<!-- Page Loader -->
+<div th:replace="admin/header::thepageloader"></div>
+
+<!-- Header -->
+<header th:replace="admin/header::theheader"></header>
+
+<section id="main">
+
+    <aside th:replace="admin/header::thenotifications"></aside>
+
+    <aside th:replace="admin/header::thenavigation"></aside>
+
+    <section id="content">
+        <div class="">
+            <div class="content__header">
+                <h2>Contacts</h2>
+
+                <div class="actions">
+                    <a href=""><i class="zmdi zmdi-check-all"></i></a>
+                    <a href=""><i class="zmdi zmdi-trending-up"></i></a>
+                    <div class="dropdown">
+                        <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="">Change Date Range</a></li>
+                            <li><a href="">Change Graph Type</a></li>
+                            <li><a href="">Other Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-header action-header--dark">
+                <ul class="action-header__menu action-header__menu--padding">
+                    <li id="liConnectedActive" class="active">
+                        <a onclick="goConnected()">Connected</a>
+                    </li>
+                    <li id="liRecommendedActive" class="">
+                        <a onclick="goRecommended()">Recommended</a>
+                    </li>
+                    <li id="liRequestedActive" class="">
+                        <a onclick="goRequested()">Requested</a>
+                    </li>
+                    <li>
+                        <a id="aContactsCount"></a>
+                    </li>
+                    <li>
+                        <input id="inputContactsActive" type="hidden" value="" />
+                    </li>
+                </ul>
+
+                <div class="action-header__search">
+                    <input type="text" placeholder="Start typing..." class="action-header__input">
+                    <i class="action-header__close zmdi zmdi-long-arrow-left"></i>
+                </div>
+
+                <div class="actions action-header__actions">
+                    <a href="" class="action-header__toggle"><i class="zmdi zmdi-search"></i></a>
+                    <a href="" class="hidden-xs"><i class="zmdi zmdi-time"></i></a>
+
+                    <div class="dropdown hidden-xs">
+                        <a href="" data-toggle="dropdown">
+                            <i class="zmdi zmdi-sort"></i>
+                        </a>
+
+                        <ul class="dropdown-menu pull-right">
+                            <li>
+                                <a href="">Last Modified</a>
+                            </li>
+                            <li>
+                                <a href="">Last Edited</a>
+                            </li>
+                            <li>
+                                <a href="">Name</a>
+                            </li>
+                            <li>
+                                <a href="">Date</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="" class="hidden-xs"><i class="zmdi zmdi-info"></i></a>
+
+                    <div class="dropdown hidden-xs">
+                        <a href="" data-toggle="dropdown">
+                            <i class="zmdi zmdi-more-vert"></i>
+                        </a>
+
+                        <ul class="dropdown-menu pull-right">
+                            <li>
+                                <a href="">Refresh</a>
+                            </li>
+                            <li>
+                                <a href="">Listview Settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="divConnectedContent" style="display: block">
+                <div class="contacts row" id="divConnectedRow">
+
+                    <!--
+                    <th:block th:each="user:${users}">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="contacts__item">
+                                <a href="" class="contacts__img">
+                                    <img th:src="${user.avatar}" alt="">
+                                </a>
+
+                                <div class="contacts__info">
+                                    <strong th:text="${user.username}"></strong>
+                                    <small th:text="${user.email}"></small>
+                                </div>
+
+                                <button class="contacts__btn btn btn&#45;&#45;icon-text btn&#45;&#45;light"><i
+                                        class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
+                                </button>
+                            </div>
+                        </div>
+                    </th:block>
+                    -->
+
+
+                </div>
+
+                <div class="text-center m-t-20">
+                    <a class="btn btn--icon-text btn-default" onclick="onLoadMore()"><i
+                            class="zmdi zmdi-refresh-alt"></i> Load More...</a>
+                </div>
+            </div>
+
+            <div id="divRecommendedContent" style="display: none">
+                <div class="contacts row" id="divRecommendedRow">
+
+                    <!--<th:block th:each="user:${users}">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="contacts__item">
+                                <a href="" class="contacts__img">
+                                    <img th:src="${user.avatar}" alt="">
+                                </a>
+
+                                <div class="contacts__info">
+                                    <strong th:text="${user.username}"></strong>
+                                    <small th:text="${user.email}"></small>
+                                </div>
+
+                                <button class="contacts__btn btn btn&#45;&#45;icon-text btn&#45;&#45;light"><i
+                                        class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
+                                </button>
+                            </div>
+                        </div>
+                    </th:block>-->
+
+                </div>
+
+                <div class="text-center m-t-20">
+                    <a class="btn btn--icon-text btn-default" onclick="onRefresh()"><i
+                            class="zmdi zmdi-refresh-alt"></i> Refresh </a>
+                </div>
+            </div>
+
+            <div id="divRequestedContent" style="display: none">
+                <div class="contacts row" id="divRequestedRow">
+
+                    <!--<th:block th:each="user:${users}">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="contacts__item">
+                                <a href="" class="contacts__img">
+                                    <img th:src="${user.avatar}" alt="">
+                                </a>
+
+                                <div class="contacts__info">
+                                    <strong th:text="${user.username}"></strong>
+                                    <small th:text="${user.email}"></small>
+                                </div>
+
+                                <button class="contacts__btn btn btn&#45;&#45;icon-text btn&#45;&#45;light"><i
+                                        class="zmdi zmdi-account-box-mail zmdi-hc-fw"></i> Unfollow
+                                </button>
+                            </div>
+                        </div>
+                    </th:block>-->
+
+
+                </div>
+
+                <!--<div class="text-center m-t-20">
+                    <a class="btn btn&#45;&#45;icon-text btn-default" onclick="onLoadMore()"><i
+                            class="zmdi zmdi-refresh-alt"></i> Load More...</a>
+                </div>-->
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer th:replace="admin/footer::thefooter"></footer>
+
+</section>
+
+<div th:replace="admin/footer :: thebottom"></div>
+
+<script th:src="@{/admin/js/contactspage.js}"></script>
+</body>
+</html>

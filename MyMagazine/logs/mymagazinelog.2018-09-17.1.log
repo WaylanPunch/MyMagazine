@@ -1,0 +1,9 @@
+2018-09-17 22:29:54,288 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 6.548 seconds (JVM running for 7.157)
+2018-09-17 22:30:20,569 INFO (AuthController.java:35)- Admin Home Page
+2018-09-17 22:38:58,960 INFO (StartupInfoLogger.java:50)- Starting MyMagazineApplication on Waylan with PID 10440 (E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine\target\classes started by pc in E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine)
+2018-09-17 22:38:58,961 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-17 22:38:58,962 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-17 22:39:00,904 INFO (StartupInfoLogger.java:59)- Started MyMagazineApplication in 1.996 seconds (JVM running for 553.771)
+2018-09-17 22:48:31,292 INFO (AuthController.java:35)- Admin Home Page
+2018-09-17 22:48:38,514 INFO (AuthController.java:41)- Admin Login Page
+2018-09-17 22:48:46,934 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from t_users WHERE ( username = ? ) 
