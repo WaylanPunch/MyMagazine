@@ -5,12 +5,6 @@ import com.waylanpunch.mymagazine.pojo.Article;
 import com.waylanpunch.mymagazine.pojo.ArticleExample;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mybatis.generator.api.MyBatisGenerator;
-import org.mybatis.generator.config.Configuration;
-import org.mybatis.generator.config.xml.ConfigurationParser;
-import org.mybatis.generator.exception.InvalidConfigurationException;
-import org.mybatis.generator.exception.XMLParserException;
-import org.mybatis.generator.internal.DefaultShellCallback;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -19,6 +13,7 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -29,6 +24,7 @@ public class MymagazineApplicationTests {
     public void contextLoads() {
     }
 
+    /*
     @Test
     public void generatorMyBatis() {
         try {
@@ -54,14 +50,14 @@ public class MymagazineApplicationTests {
             e.printStackTrace();
         }
     }
+    */
 
 
     @Autowired
     private ArticleMapper articleMapper;
-
     @Test
-    public void testMyBatisArticle() {
-        Integer id = 2;
+    public void testQueryMyBatisArticle() {
+        Integer id = 3;
         ArticleExample articleExample = new ArticleExample();
         ArticleExample.Criteria criteria = articleExample.createCriteria();
         criteria.andArticleIdEqualTo(id);
@@ -76,5 +72,20 @@ public class MymagazineApplicationTests {
             System.out.println("Created : " + articles.get(0).getCreated());
             System.out.println("Modified : " + articles.get(0).getModified());
         }
+    }
+
+    @Test
+    public void testInsertMyBatisArticle() {
+        Article article=new Article();
+        article.setAllowComment(true);
+        article.setAllowFeed(true);
+        article.setAllowPing(true);
+        article.setCategories("Travel");
+        article.setContent("的积分卡士大夫撒打飞机萨芬士大夫计划为爱服务");
+        article.setCreated(new Date());
+        article.setModified(new Date());
+        article.setTitle("demo");
+        article.setUserId(1);
+        articleMapper.insertSelective(article);
     }
 }
