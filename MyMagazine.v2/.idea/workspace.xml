@@ -17,109 +17,196 @@
     <favorites_list name="MyMagazine" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/MymagazineApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-550">
-              <caret line="65" column="70" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/waylanpunch/mymagazine/MymagazineApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/relationship.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="155">
+              <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/option.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1550">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Comment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11105">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Log.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/log.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/attachment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.</find>
+      <find>post/</find>
+      <find>font</find>
+      <find>fonts</find>
+      <find>src</find>
+      <find>/img</find>
+      <find>logo</find>
+      <find>src=&quot;../../static/img/post/4.jpg&quot;</find>
+      <find>th:src</find>
+      <find>jpg</find>
+      <find>th:src=</find>
+      <find>src=&quot;../../static/img/post/1.jpg&quot;</find>
+      <find>png</find>
+      <find>email</find>
+      <find>Email</find>
+      <find>notika-mail</find>
+      <find>custom-icon</find>
+      <find>.png</find>
+      <find>.jpg</find>
+      <find>jquery-1.12.4</find>
+      <find>Normal Table</find>
+      <find>Tables</find>
+      <find>col-lg-6</find>
+      <find>User</find>
+      <find>Slug</find>
+      <find>active</find>
+      <find>Article</find>
+      <find>article</find>
+      <find>optionId</find>
+      <find>table-striped</find>
+      <find>table-striped</find>
     </findStrings>
+    <replaceStrings>
+      <replace>admin</replace>
+      <replace>th:href</replace>
+      <replace>th:src</replace>
+      <replace>th:href=&quot;@{/admin</replace>
+      <replace>th:href=&quot;@{/</replace>
+      <replace>th:src=&quot;@{/</replace>
+      <replace>.js}&quot;</replace>
+      <replace>.jpg}&quot;</replace>
+      <replace>.png}&quot;</replace>
+      <replace>'/img</replace>
+      <replace>.jpg'</replace>
+      <replace>.png'</replace>
+      <replace>/</replace>
+      <replace>.ico</replace>
+      <replace>user</replace>
+      <replace>attachment</replace>
+      <replace>Attachment</replace>
+      <replace>comment</replace>
+      <replace>Comment</replace>
+      <replace>Log</replace>
+      <replace>Option</replace>
+      <replace>log</replace>
+      <replace>option</replace>
+      <replace>Relationship</replace>
+      <replace>relationship</replace>
+      <replace>relationshipId</replace>
+      <replace>table-hover</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/waylanpunch/mymagazine/MymagazineApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/MymagazineApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/tools/MyBatisGenerator.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/waylanpunch/mymagazine/MymagazineApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/users.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login-register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/notika-custom-icon.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/RedirectUnknownUrls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/StaticResourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IAttachmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/AttachmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/AttachmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/ICommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/ILogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/LogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/LogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IOptionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/OptionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/OptionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IRelationshipService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/RelationshipService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/RelationshipController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/article.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/relationship.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/option.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/user.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/log.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/comment.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/attachment.html" />
       </list>
     </option>
   </component>
@@ -131,12 +218,37 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mymagazine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mymagazine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mymagazine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="588" />
-    <option name="width" value="1249" />
+    <option name="x" value="942" />
+    <option name="width" value="983" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -144,6 +256,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +298,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mymagazine" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyMagazine" type="b2602c69:ProjectViewProjectNode" />
@@ -193,7 +307,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mymagazine" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyMagazine" type="b2602c69:ProjectViewProjectNode" />
@@ -206,36 +320,35 @@
               <item name="MyMagazine" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyMagazine.v2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyMagazine" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyMagazine.v2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyMagazine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyMagazine.v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mymagazine" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552489743879" />
-    <property name="last_opened_file_path" value="$USER_HOME$/apache-tomcat-8.5.13/webapps" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552752712870" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -245,7 +358,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\templates\admin" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\static\images" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\static" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\templates" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\static\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.waylanpunch.mymagazine.controller.admin" />
+      <recent name="com.waylanpunch.mymagazine.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\templates\admin" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\static\js" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\static\admin" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\templates\error" />
+      <recent name="E:\WORKSPACE\IntelliJIDEA_Workspace\MyMagazine.v2\src\main\resources\tools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MymagazineApplicationTests.testMyBatisArticle">
+  <component name="RunManager" selected="Spring Boot.MymagazineApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -290,6 +418,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MymagazineApplicationTests.testInsertMyBatisArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMagazine.v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.waylanpunch.mymagazine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.waylanpunch.mymagazine" />
+      <option name="MAIN_CLASS_NAME" value="com.waylanpunch.mymagazine.MymagazineApplicationTests" />
+      <option name="METHOD_NAME" value="testInsertMyBatisArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MymagazineApplicationTests.testMyBatisArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMagazine.v2" />
       <extension name="coverage">
@@ -301,6 +446,23 @@
       <option name="PACKAGE_NAME" value="com.waylanpunch.mymagazine" />
       <option name="MAIN_CLASS_NAME" value="com.waylanpunch.mymagazine.MymagazineApplicationTests" />
       <option name="METHOD_NAME" value="testMyBatisArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MymagazineApplicationTests.testQueryMyBatisArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMagazine.v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.waylanpunch.mymagazine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.waylanpunch.mymagazine" />
+      <option name="MAIN_CLASS_NAME" value="com.waylanpunch.mymagazine.MymagazineApplicationTests" />
+      <option name="METHOD_NAME" value="testQueryMyBatisArticle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -412,6 +574,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MymagazineApplicationTests.testQueryMyBatisArticle" />
+        <item itemvalue="JUnit.MymagazineApplicationTests.testInsertMyBatisArticle" />
         <item itemvalue="JUnit.MymagazineApplicationTests.testMyBatisArticle" />
         <item itemvalue="JUnit.MymagazineApplicationTests.generatorMyBatis" />
       </list>
@@ -427,14 +591,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552488081530</updated>
-      <workItem from="1552488086131" duration="1629000" />
+      <workItem from="1552488086131" duration="4336000" />
+      <workItem from="1552571667243" duration="9003000" />
+      <workItem from="1552661922935" duration="3362000" />
+      <workItem from="1552705564499" duration="9643000" />
+      <workItem from="1552720135554" duration="256000" />
+      <workItem from="1552720674426" duration="18134000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MymagazineApplicationTests_generatorMyBatis - 2019.03.13 at 22h 46m 26s.xml">
-      <configuration name="MymagazineApplicationTests.generatorMyBatis" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MymagazineApplicationTests_generatorMyBatis - 2019.03.13 at 22h 50m 32s.xml">
       <configuration name="MymagazineApplicationTests.generatorMyBatis" configurationId="JUnit" />
     </history-entry>
@@ -450,12 +616,37 @@
     <history-entry file="MymagazineApplicationTests_testMyBatisArticle - 2019.03.13 at 23h 07m 00s.xml">
       <configuration name="MymagazineApplicationTests.testMyBatisArticle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MymagazineApplicationTests_testMyBatisArticle - 2019.03.13 at 23h 09m 11s.xml">
+      <configuration name="MymagazineApplicationTests.testMyBatisArticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MymagazineApplicationTests_testMyBatisArticle - 2019.03.13 at 23h 30m 14s.xml">
+      <configuration name="MymagazineApplicationTests.testMyBatisArticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MymagazineApplicationTests_testMyBatisArticle - 2019.03.13 at 23h 31m 10s.xml">
+      <configuration name="MymagazineApplicationTests.testMyBatisArticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MymagazineApplicationTests_testInsertMyBatisArticle - 2019.03.13 at 23h 37m 43s.xml">
+      <configuration name="MymagazineApplicationTests.testInsertMyBatisArticle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MymagazineApplicationTests_testQueryMyBatisArticle - 2019.03.13 at 23h 38m 34s.xml">
+      <configuration name="MymagazineApplicationTests.testQueryMyBatisArticle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1629000" />
+    <option name="totallyTimeSpent" value="44734000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -463,24 +654,24 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" show_stripe_button="false" sideWeight="0.5005574" side_tool="true" weight="0.24973147" />
       <window_info id="Web" order="5" show_stripe_button="false" sideWeight="0.5005574" side_tool="true" weight="0.24973147" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49944258" visible="true" weight="0.24973147" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49944258" visible="true" weight="0.216971" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.13372718" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="CDI" order="3" />
@@ -499,85 +690,624 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="65" column="70" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="275">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11105">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50150">
+          <caret line="2006" column="3" selection-start-line="2006" selection-start-column="3" selection-end-line="2006" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/notika-custom-icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3050">
+          <caret line="122" column="12" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/logo/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="523" column="59" lean-forward="true" selection-start-line="522" selection-start-column="4" selection-end-line="523" selection-end-column="59" />
+          <folding>
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="147" column="29" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="29" />
+          <folding>
+            <element signature="e#93#269#0" />
+            <element signature="e#306#477#0" />
+            <element signature="e#509#679#0" />
+            <element signature="e#710#883#0" />
+            <element signature="e#915#1089#0" />
+            <element signature="e#1122#1295#0" />
+            <element signature="e#1329#1502#0" />
+            <element signature="e#1536#1706#0" />
+            <element signature="e#1737#1909#0" />
+            <element signature="e#1942#2112#0" />
+            <element signature="e#2143#2319#0" />
+            <element signature="e#2356#2526#0" />
+            <element signature="e#2558#2739#0" />
+            <element signature="e#2781#2960#0" />
+            <element signature="e#3000#3176#0" />
+            <element signature="e#3213#3389#0" />
+            <element signature="e#3426#3585#0" />
+            <element signature="e#3426#4401#0" />
+            <element signature="e#4407#4566#0" />
+            <element signature="e#4618#4852#0" />
+            <element signature="e#4926#5167#0" />
+            <element signature="e#5265#5489#0" />
+            <element signature="e#5554#5781#0" />
+            <element signature="e#5892#6114#0" />
+            <element signature="e#6177#6401#0" />
+            <element signature="e#6507#6735#0" />
+            <element signature="e#6802#7035#0" />
+            <element signature="e#7122#7352#0" />
+            <element signature="e#7421#7657#0" />
+            <element signature="e#7748#7976#0" />
+            <element signature="e#8045#8278#0" />
+            <element signature="e#8399#8627#0" />
+            <element signature="e#8695#8927#0" />
+            <element signature="e#9013#9235#0" />
+            <element signature="e#9298#9522#0" />
+            <element signature="e#9628#9854#0" />
+            <element signature="e#9921#10151#0" />
+            <element signature="e#10267#10489#0" />
+            <element signature="e#10552#10776#0" />
+            <element signature="e#10882#11116#0" />
+            <element signature="e#11191#11433#0" />
+            <element signature="e#11569#11791#0" />
+            <element signature="e#11855#12079#0" />
+            <element signature="e#12157#12401#0" />
+            <element signature="e#12485#12741#0" />
+            <element signature="e#12859#13099#0" />
+            <element signature="e#13179#13429#0" />
+            <element signature="e#13539#13773#0" />
+            <element signature="e#13847#14088#0" />
+            <element signature="e#14186#14420#0" />
+            <element signature="e#14494#14735#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="546" column="58" lean-forward="true" selection-start-line="546" selection-start-column="58" selection-end-line="546" selection-end-column="58" />
+          <folding>
+            <element signature="e#2789#3015#0" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1550">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-1305">
+          <caret line="93" column="28" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="28" />
+          <folding>
+            <element signature="docComment;field#userId#0;class#User#0" />
+            <element signature="docComment;field#username#0;class#User#0" />
+            <element signature="docComment;field#password#0;class#User#0" />
+            <element signature="docComment;field#email#0;class#User#0" />
+            <element signature="docComment;field#homeUrl#0;class#User#0" />
+            <element signature="docComment;field#displayName#0;class#User#0" />
+            <element signature="docComment;field#created#0;class#User#0" />
+            <element signature="docComment;field#activated#0;class#User#0" />
+            <element signature="docComment;field#logged#0;class#User#0" />
+            <element signature="docComment;field#groupName#0;class#User#0" />
+            <element signature="docComment;method#User#0;class#User#0" />
+            <element signature="method#User#0;class#User#0" />
+            <element signature="docComment;method#User#1;class#User#0" />
+            <element signature="docComment;method#getUserId#0;class#User#0" />
+            <element signature="docComment;method#setUserId#0;class#User#0" />
+            <element signature="docComment;method#getUsername#0;class#User#0" />
+            <element signature="docComment;method#setUsername#0;class#User#0" />
+            <element signature="docComment;method#getPassword#0;class#User#0" />
+            <element signature="docComment;method#setPassword#0;class#User#0" />
+            <element signature="docComment;method#getEmail#0;class#User#0" />
+            <element signature="docComment;method#setEmail#0;class#User#0" />
+            <element signature="docComment;method#getHomeUrl#0;class#User#0" />
+            <element signature="docComment;method#setHomeUrl#0;class#User#0" />
+            <element signature="docComment;method#getDisplayName#0;class#User#0" />
+            <element signature="docComment;method#setDisplayName#0;class#User#0" />
+            <element signature="method#setDisplayName#0;class#User#0" />
+            <element signature="docComment;method#getCreated#0;class#User#0" />
+            <element signature="docComment;method#setCreated#0;class#User#0" />
+            <element signature="docComment;method#getActivated#0;class#User#0" />
+            <element signature="docComment;method#setActivated#0;class#User#0" />
+            <element signature="docComment;method#getLogged#0;class#User#0" />
+            <element signature="docComment;method#setLogged#0;class#User#0" />
+            <element signature="docComment;method#getGroupName#0;class#User#0" />
+            <element signature="docComment;method#setGroupName#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/AttachmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IAttachmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/dao/AttachmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Attachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;field#attachmentId#0;class#Attachment#0" />
+            <element signature="docComment;field#fileName#0;class#Attachment#0" />
+            <element signature="docComment;field#fileType#0;class#Attachment#0" />
+            <element signature="docComment;field#fileKey#0;class#Attachment#0" />
+            <element signature="docComment;field#userId#0;class#Attachment#0" />
+            <element signature="docComment;field#created#0;class#Attachment#0" />
+            <element signature="docComment;method#Attachment#0;class#Attachment#0" />
+            <element signature="method#Attachment#0;class#Attachment#0" />
+            <element signature="docComment;method#Attachment#1;class#Attachment#0" />
+            <element signature="docComment;method#getAttachmentId#0;class#Attachment#0" />
+            <element signature="docComment;method#setAttachmentId#0;class#Attachment#0" />
+            <element signature="docComment;method#getFileName#0;class#Attachment#0" />
+            <element signature="docComment;method#setFileName#0;class#Attachment#0" />
+            <element signature="docComment;method#getFileType#0;class#Attachment#0" />
+            <element signature="docComment;method#setFileType#0;class#Attachment#0" />
+            <element signature="docComment;method#getFileKey#0;class#Attachment#0" />
+            <element signature="docComment;method#setFileKey#0;class#Attachment#0" />
+            <element signature="docComment;method#getUserId#0;class#Attachment#0" />
+            <element signature="docComment;method#setUserId#0;class#Attachment#0" />
+            <element signature="docComment;method#getCreated#0;class#Attachment#0" />
+            <element signature="docComment;method#setCreated#0;class#Attachment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/dao/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/AttachmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/ICommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="129" column="26" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="26" />
+          <folding>
+            <element signature="e#93#269#0" />
+            <element signature="e#306#482#0" />
+            <element signature="e#519#692#0" />
+            <element signature="e#724#894#0" />
+            <element signature="e#925#1099#0" />
+            <element signature="e#1134#1308#0" />
+            <element signature="e#1343#1513#0" />
+            <element signature="e#1544#1713#0" />
+            <element signature="e#1743#1911#0" />
+            <element signature="e#1940#2111#0" />
+            <element signature="e#2143#2313#0" />
+            <element signature="e#2344#2516#0" />
+            <element signature="e#2549#2721#0" />
+            <element signature="e#2755#2928#0" />
+            <element signature="e#2962#3121#0" />
+            <element signature="e#2962#3721#0" />
+            <element signature="e#3727#3886#0" />
+            <element signature="e#3727#4534#0" />
+            <element signature="e#4540#4699#0" />
+            <element signature="e#4751#4985#0" />
+            <element signature="e#5059#5300#0" />
+            <element signature="e#5398#5632#0" />
+            <element signature="e#5706#5947#0" />
+            <element signature="e#6045#6273#0" />
+            <element signature="e#6340#6573#0" />
+            <element signature="e#6660#6882#0" />
+            <element signature="e#6945#7169#0" />
+            <element signature="e#7275#7505#0" />
+            <element signature="e#7575#7810#0" />
+            <element signature="e#7900#8130#0" />
+            <element signature="e#8200#8435#0" />
+            <element signature="e#8525#8747#0" />
+            <element signature="e#8810#9034#0" />
+            <element signature="e#9140#9360#0" />
+            <element signature="e#9421#9642#0" />
+            <element signature="e#9743#9961#0" />
+            <element signature="e#10020#10238#0" />
+            <element signature="e#10334#10558#0" />
+            <element signature="e#10623#10850#0" />
+            <element signature="e#10961#11183#0" />
+            <element signature="e#11246#11470#0" />
+            <element signature="e#11576#11802#0" />
+            <element signature="e#11869#12099#0" />
+            <element signature="e#12215#12441#0" />
+            <element signature="e#12509#12739#0" />
+            <element signature="e#12825#13053#0" />
+            <element signature="e#13122#13355#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/ILogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;field#logId#0;class#Log#0" />
+            <element signature="docComment;field#action#0;class#Log#0" />
+            <element signature="docComment;field#data#0;class#Log#0" />
+            <element signature="docComment;field#userId#0;class#Log#0" />
+            <element signature="docComment;field#ip#0;class#Log#0" />
+            <element signature="docComment;field#created#0;class#Log#0" />
+            <element signature="docComment;method#Log#0;class#Log#0" />
+            <element signature="method#Log#0;class#Log#0" />
+            <element signature="docComment;method#Log#1;class#Log#0" />
+            <element signature="docComment;method#getLogId#0;class#Log#0" />
+            <element signature="docComment;method#setLogId#0;class#Log#0" />
+            <element signature="docComment;method#getAction#0;class#Log#0" />
+            <element signature="docComment;method#setAction#0;class#Log#0" />
+            <element signature="docComment;method#getData#0;class#Log#0" />
+            <element signature="docComment;method#setData#0;class#Log#0" />
+            <element signature="docComment;method#getUserId#0;class#Log#0" />
+            <element signature="docComment;method#setUserId#0;class#Log#0" />
+            <element signature="docComment;method#getIp#0;class#Log#0" />
+            <element signature="docComment;method#setIp#0;class#Log#0" />
+            <element signature="docComment;method#getCreated#0;class#Log#0" />
+            <element signature="docComment;method#setCreated#0;class#Log#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IOptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/OptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/OptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;field#name#0;class#Option#0" />
+            <element signature="docComment;field#value#0;class#Option#0" />
+            <element signature="docComment;field#description#0;class#Option#0" />
+            <element signature="docComment;method#Option#0;class#Option#0" />
+            <element signature="method#Option#0;class#Option#0" />
+            <element signature="docComment;method#Option#1;class#Option#0" />
+            <element signature="docComment;method#getName#0;class#Option#0" />
+            <element signature="docComment;method#setName#0;class#Option#0" />
+            <element signature="docComment;method#getValue#0;class#Option#0" />
+            <element signature="docComment;method#setValue#0;class#Option#0" />
+            <element signature="docComment;method#getDescription#0;class#Option#0" />
+            <element signature="docComment;method#setDescription#0;class#Option#0" />
+            <element signature="method#setDescription#0;class#Option#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/IRelationshipService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/controller/admin/RelationshipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/service/RelationshipService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/pojo/Relationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;field#articleId#0;class#Relationship#0" />
+            <element signature="docComment;field#metaId#0;class#Relationship#0" />
+            <element signature="docComment;method#Relationship#0;class#Relationship#0" />
+            <element signature="method#Relationship#0;class#Relationship#0" />
+            <element signature="docComment;method#Relationship#1;class#Relationship#0" />
+            <element signature="docComment;method#getArticleId#0;class#Relationship#0" />
+            <element signature="docComment;method#setArticleId#0;class#Relationship#0" />
+            <element signature="docComment;method#getMetaId#0;class#Relationship#0" />
+            <element signature="docComment;method#setMetaId#0;class#Relationship#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/waylanpunch/mymagazine/MymagazineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/waylanpunch/mymagazine/MymagazineApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/option.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="155">
+          <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/attachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/relationship.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
         </state>
       </provider>
     </entry>

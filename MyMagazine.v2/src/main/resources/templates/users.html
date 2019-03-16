@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<!--<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" >-->
+<!--<html xmlns:th="http://www.thymeleaf.org"-->
+<!--xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">-->
+<head>
+    <meta charset="UTF-8">
+    <title>今晚天气好</title>
+</head>
+<body>
+
+<table border="1">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Username</td>
+            <td>Password</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:if="${users.size()} eq 0">
+            <td colspan="3">没有用户信息！！</td>
+        </tr>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.userId}">1</td>
+            <td th:text="${user.username}">11</td>
+            <td th:text="${user.password}">11</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Tables',active='tables'">
+
+<header th:replace="admin/header::headerFragment(${title},${active})"></header>
+
+<body>
+
+<div th:replace="admin/header::headerBody"></div>
+
+	<!-- Breadcomb area Start-->
+	<div class="breadcomb-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="breadcomb-list">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="breadcomb-wp">
+									<div class="breadcomb-icon">
+										<i class="notika-icon notika-windows"></i>
+									</div>
+									<div class="breadcomb-ctn">
+										<h2>Articles Data Table</h2>
+										<p>Welcome to Magazine <span class="bread-ntd">Dashboard</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+								<div class="breadcomb-report">
+									<button data-toggle="tooltip" data-placement="left" title="Write An Article" class="btn"><i class="notika-icon notika-up-arrow"></i></button>
+                                    <button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Breadcomb area End-->
+
+<!-- Data Table area Start-->
+    <div class="data-table-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="data-table-list">
+                        <div class="basic-tb-hd">
+                            <h2>Basic Example</h2>
+                            <p>It's just that simple. Turn your simple table into a sophisticated data table and offer your users a nice experience and great features without any effort.</p>
+                        </div>
+                        <div class="table-responsive">
+                            <table id="data-table-basic" class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Title</th>
+                                        <!--<th>Content</th>-->
+                                        <!--<th>User Id</th>-->
+                                        <!--<th>Tags</th>-->
+                                        <!--<th>Type</th>-->
+                                        <th>Status</th>
+                                        <th>Categories</th>
+                                        <!--<th>Slug</th>-->
+                                        <!--<th>Hits</th>-->
+                                        <!--<th>Comments Number</th>-->
+                                        <!--<th>Allow Comment</th>-->
+                                        <!--<th>Allow Ping</th>-->
+                                        <!--<th>Allow Feed</th>-->
+                                        <!--<th>Modified</th>-->
+                                        <th>Created</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:if="${articles.size()} eq 0">
+                                    <td colspan="6">No Articles Data.</td>
+                                </tr>
+                                <tr th:each="article : ${articles}">
+                                    <td th:text="${article.articleId}"></td>
+                                    <td th:text="${article.title}"></td>
+                                    <!--<td th:text="${article.content}"></td>-->
+                                    <!--<td th:text="${article.userId}"></td>-->
+                                    <!--<td th:text="${article.tags}"></td>-->
+                                    <!--<td th:text="${article.type}"></td>-->
+                                    <td th:text="${article.status}"></td>
+                                    <td th:text="${article.categories}"></td>
+                                    <!--<td th:text="${article.slug}"></td>-->
+                                    <!--<td th:text="${article.hits}"></td>-->
+                                    <!--<td th:text="${article.commentsNumber}"></td>-->
+                                    <!--<td th:text="${article.allowComment}"></td>-->
+                                    <!--<td th:text="${article.allowPing}"></td>-->
+                                    <!--<td th:text="${article.allowFeed}"></td>-->
+                                    <!--<td th:text="${article.modified}"></td>-->
+                                    <td th:text="${article.created}"></td>
+                                    <td>
+                                        <div class="btn-group notika-tl-btn">
+                                            <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-refresh"></i></button>
+                                            <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-close"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Title</th>
+                                        <!--<th>Content</th>-->
+                                        <!--<th>User Id</th>-->
+                                        <!--<th>Tags</th>-->
+                                        <!--<th>Type</th>-->
+                                        <th>Status</th>
+                                        <th>Categories</th>
+                                        <!--<th>Slug</th>-->
+                                        <!--<th>Hits</th>-->
+                                        <!--<th>Comments Number</th>-->
+                                        <!--<th>Allow Comment</th>-->
+                                        <!--<th>Allow Ping</th>-->
+                                        <!--<th>Allow Feed</th>-->
+                                        <!--<th>Modified</th>-->
+                                        <th>Created</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Data Table area End-->
+
+    <div th:replace="admin/footer :: footerBody"></div>
+    <div th:replace="admin/footer :: footerFragment"></div>
+</body>
+
+</html>
