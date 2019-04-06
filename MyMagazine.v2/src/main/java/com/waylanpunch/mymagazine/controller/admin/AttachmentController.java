@@ -74,6 +74,7 @@ public class AttachmentController {
      */
     @GetMapping("/upload")
     public String fileUploadForm() {
+        logger.info("AttachmentController->fileUploadForm");
         return "admin/attachmentUpload";
     }
 
