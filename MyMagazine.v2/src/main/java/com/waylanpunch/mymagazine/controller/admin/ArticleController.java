@@ -28,4 +28,10 @@ public class ArticleController {
         return "admin/article";
     }
 
+    @GetMapping(value = {"/article/publish"})
+    public String publish(ModelMap map) {
+        //map.addAttribute("articles", articleService.findAllArticles());
+        return "admin/articlePublish";
+    }
+
 }

@@ -40,7 +40,12 @@ Source Code:
         <context id="default" targetRuntime="MyBatis3">
     
             <!--序列化model-->
-            <!--<plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>-->
+             <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+             <!--分页插件-->
+             <!--<plugin type="org.mybatis.generator.plugins.PaginationPlugin"></plugin>-->
+             <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
+             <!--toString方法-->
+             <plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin>
     
             <!--optional,旨在创建class时，对注释进行控制-->
             <commentGenerator>

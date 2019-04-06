@@ -1,8 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Tables',active='tables'">
+<html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Attachment',active='tables'">
 
 <header th:replace="admin/header::headerFragment(${title},${active})"></header>
-
+<script th:src="@{/js/magazine/backend/attachment.js}"></script>
 <body>
 
 <div th:replace="admin/header::headerBody"></div>
@@ -27,8 +27,8 @@
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button data-toggle="tooltip" data-placement="left" title="Upload An Attachment" class="btn"><i class="notika-icon notika-up-arrow"></i></button>
-                                    <button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+									<button id="btnUploadFrom" data-toggle="tooltip" data-placement="left" title="Upload An Attachment" class="btn"><i class="notika-icon notika-up-arrow"></i></button>
+                                    <button id="btnDownloadReport" data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
 								</div>
 							</div>
 						</div>
@@ -56,8 +56,8 @@
                                         <th>#</th>
                                         <th>File Name</th>
                                         <th>File Type</th>
-                                        <!--<th>File Key</th>
-                                        <th>UserId</th>-->
+                                        <th>Download</th>
+                                        <!--<th>UserId</th>-->
                                         <th>Created</th>
                                         <th>Actions</th>
                                     </tr>
@@ -69,9 +69,11 @@
                                 <tr th:each="attachment : ${attachments}">
                                     <td th:text="${attachment.attachmentId}"></td>
                                     <td th:text="${attachment.fileName}"></td>
-                                    <!--<td th:text="${attachment.fileType}"></td>
-                                    <td th:text="${attachment.fileKey}"></td>-->
-                                    <td th:text="${attachment.userId}"></td>
+                                    <td th:text="${attachment.fileType}"></td>
+                                    <td>
+                                        <a target="_blank" th:href="${attachment.fileKey}">Download</a>
+                                    </td>
+                                    <!--<td th:text="${attachment.userId}"></td>-->
                                     <td th:text="${attachment.created}"></td>
                                     <td>
                                         <div class="btn-group notika-tl-btn">
@@ -86,8 +88,8 @@
                                         <th>#</th>
                                         <th>File Name</th>
                                         <th>File Type</th>
-                                        <!--<th>File Key</th>
-                                        <th>UserId</th>-->
+                                        <th>Download</th>
+                                        <!--<th>UserId</th>-->
                                         <th>Created</th>
                                         <th>Actions</th>
                                     </tr>

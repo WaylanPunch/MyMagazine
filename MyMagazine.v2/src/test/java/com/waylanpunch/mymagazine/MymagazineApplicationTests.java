@@ -57,7 +57,7 @@ public class MymagazineApplicationTests {
     private ArticleMapper articleMapper;
     @Test
     public void testQueryMyBatisArticle() {
-        Integer id = 3;
+        Integer id = 1;
         ArticleExample articleExample = new ArticleExample();
         ArticleExample.Criteria criteria = articleExample.createCriteria();
         criteria.andArticleIdEqualTo(id);

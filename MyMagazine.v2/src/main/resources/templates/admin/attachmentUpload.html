@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Attachment',active='tables'">
+
+<header th:replace="admin/header::headerFragment(${title},${active})"></header>
+
+<script th:src="@{/js/magazine/backend/attachment-upload.js}"></script>
+
+<link rel="stylesheet" th:href="@{/css/dialog/sweetalert2.min.css}">
+
+<link rel="stylesheet" th:href="@{/css/dialog/dialog.css}">
+
+<script th:src="@{/js/dialog/sweetalert2.min.js}"></script>
+
+<body>
+
+<div th:replace="admin/header::headerBody"></div>
+
+	<!-- Breadcomb area Start-->
+	<div class="breadcomb-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="breadcomb-list">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="breadcomb-wp">
+									<div class="breadcomb-icon">
+										<i class="notika-icon notika-form"></i>
+									</div>
+									<div class="breadcomb-ctn">
+										<h2>Form Examples</h2>
+										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+								<div class="breadcomb-report">
+									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Breadcomb area End-->
+    <!-- Form Examples area start-->
+<!--<form method="POST" enctype="multipart/form-data" action="/admin/attachment/upload">-->
+<form>
+    <div class="form-example-area">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-example-wrap mg-t-30">
+                        <div class="cmp-tb-hd cmp-int-hd">
+                            <h2>Inline Form</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="form-example-int form-example-st">
+                                    <div class="form-group">
+                                        <div class="nk-int-st">
+                                            <input id="inputUploadFile" type="file" class="form-control input-sm" name="file" placeholder="Upload Attachment">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
+                                <div class="form-example-int">
+                                    <button id="btnUpload" type="button" class="btn btn-success notika-btn-success">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+<!--modal fade in-->
+<!--modal fade out-->
+<!--modal-dialog modals-default nk-light-blue-->
+<!--modal-dialog modals-default nk-red-->
+<!--<div class="modal fade" id="divDialog" role="dialog">
+    <div class="modal-dialog modals-default nk-light-blue" id="divDialogBackground">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="btnDialogClose" type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h2 id="h2DialogTitle">SUCCESS</h2>
+                <p id="pDialogContent">Curabitur blandit mollis lacus. Nulla sit amet est. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Cras sagittis.</p>
+            </div>
+            <div class="modal-footer">
+                <button id="btnDialogReturn" type="button" class="btn btn-default" data-dismiss="modal">Return</button>
+                <button id="btnDialogCancel" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>-->
+    <!-- Form Examples area End-->
+    <div th:replace="admin/footer :: footerBody"></div>
+    <div th:replace="admin/footer :: footerFragment"></div>
+</body>
+
+</html>

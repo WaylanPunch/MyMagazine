@@ -1,0 +1,446 @@
+<!doctype html>
+<html class="no-js" lang="en" xmlns:th="http://www.thymeleaf.org" th:with="title='Magazine Dashboard',active='home'">
+
+<header th:replace="admin/header::headerFragment(${title},${active})"></header>
+
+<body>
+
+<!-- summernote CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/summernote/summernote.css}">
+<!-- Range Slider CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/themesaller-forms.css}">
+<!-- bootstrap select CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/bootstrap-select/bootstrap-select.css}">
+<!-- datapicker CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/datapicker/datepicker3.css}">
+<!-- Color Picker CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/color-picker/farbtastic.css}">
+<!-- main CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/chosen/chosen.css}">
+<!-- notification CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/notification/notification.css}">
+<!-- dropzone CSS
+    ============================================ -->
+<link rel="stylesheet" th:href="@{/css/dropzone/dropzone.css}">
+
+    <div th:replace="admin/header::headerBody"></div>
+
+	<!-- Breadcomb area Start-->
+	<div class="breadcomb-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="breadcomb-list">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="breadcomb-wp">
+									<div class="breadcomb-icon">
+										<i class="notika-icon notika-form"></i>
+									</div>
+									<div class="breadcomb-ctn">
+										<h2>Form Components</h2>
+										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+								<div class="breadcomb-report">
+									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Breadcomb area End-->
+    <!-- Form Element area Start-->
+    <div class="form-element-area">
+        <div class="container">
+
+            <!--Floating Labels-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-element-list mg-t-30">
+                        <div class="cmp-tb-hd">
+                            <h2>Floating Labels</h2>
+                            <p>Basic example for input groups with floating labels </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ic-cmp-int float-lb form-elet-mg">
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-wifi"></i>
+                                    </div>
+                                    <div class="nk-int-st">
+                                        <input type="text" class="form-control">
+                                        <label class="nk-label">Internet</label>
+                                    </div>
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-cloud"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ic-cmp-int float-lb form-elet-mg">
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-house"></i>
+                                    </div>
+                                    <div class="nk-int-st">
+                                        <input type="text" class="form-control">
+                                        <label class="nk-label">Home Address</label>
+                                    </div>
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-success"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group ic-cmp-int float-lb form-elet-mg">
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-edit"></i>
+                                    </div>
+                                    <div class="nk-int-st">
+                                        <input type="text" class="form-control">
+                                        <label class="nk-label">Layer</label>
+                                    </div>
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-chat"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Different Sizes Input Text-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-element-list mg-t-30">
+                        <div class="cmp-tb-hd">
+                            <h2>Different Sizes</h2>
+                            <p>You may use the extra sizing classes (<code>.input-sm, .input-lg </code>) to change size of the feilds.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="form-group ic-cmp-int int-bg-it form-elet-mg">
+                                    <div class="form-ic-cmp">
+                                        <i class="notika-icon notika-wifi"></i>
+                                    </div>
+                                    <div class="nk-int-st">
+                                        <input type="text" class="form-control input-lg" Placeholder="Internet">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Bootstrap Seelct-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-element-list mg-t-30">
+                        <div class="cmp-tb-hd">
+                            <h2>Bootstrap Seelct - Custom Select</h2>
+                            <p>Bootstrap-select is a jQuery plugin that utilizes Bootstrap's dropdown.js to style and bring additional functionality to standard select elements.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn">
+                                    <h2>Basic Example</h2>
+                                </div>
+                                <div class="bootstrap-select fm-cmp-mg">
+                                    <select class="selectpicker">
+											<option>Drama</option>
+											<option>Cariska</option>
+											<option>Cheriska</option>
+											<option>Malias</option>
+											<option>Kamines</option>
+											<option>Austranas</option>
+										</select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn sm-res-mg-t-10">
+                                    <h2>Serach Option</h2>
+                                </div>
+                                <div class="bootstrap-select fm-cmp-mg">
+                                    <select class="selectpicker" data-live-search="true">
+											<option>Drama</option>
+											<option>Cariska</option>
+											<option>Cheriska</option>
+											<option>Malias</option>
+											<option>Kamines</option>
+											<option>Austranas</option>
+										</select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn sm-res-mg-t-10">
+                                    <h2>Option Groups</h2>
+                                </div>
+                                <div class="bootstrap-select fm-cmp-mg">
+                                    <select class="selectpicker">
+											<optgroup label="Picnic">
+												<option>Drama</option>
+												<option>Cariska</option>
+												<option>Cheriska</option>
+											</optgroup>
+											<optgroup label="Camping">
+												<option>Malias</option>
+												<option>Kamines</option>
+												<option>Austranas</option>
+											</optgroup>
+										</select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn sm-res-mg-t-10">
+                                    <h2>Disabled Options</h2>
+                                </div>
+                                <div class="bootstrap-select fm-cmp-mg">
+                                    <select class="selectpicker">
+											<option disabled="disabled">Drama</option>
+											<option>Cariska</option>
+											<option>Kamines</option>
+											<option disabled="disabled">Malias</option>
+											<option>Cheriska</option>
+										</select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn mg-t-30">
+                                    <h2>Multi Select</h2>
+                                </div>
+                                <div class="bootstrap-select">
+                                    <select class="selectpicker" multiple>
+											<option>Drama</option>
+											<option>Cariska</option>
+											<option>Cheriska</option>
+											<option>Malias</option>
+											<option>Kamines</option>
+											<option>Austranas</option>
+										</select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn mg-t-30">
+                                    <h2>Limit Selection - Set to 2</h2>
+                                </div>
+                                <div class="bootstrap-select">
+                                    <select class="selectpicker" multiple data-max-options="2" title='Choose some of...'>
+											<option>Drama</option>
+											<option>Cariska</option>
+											<option>Cheriska</option>
+											<option>Malias</option>
+											<option>Kamines</option>
+											<option>Austranas</option>
+										</select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn mg-t-30">
+                                    <h2>Display Count</h2>
+                                </div>
+                                <div class="bootstrap-select">
+                                    <select class="selectpicker" multiple data-selected-text-format="count">
+											<option>Drama</option>
+											<option>Cariska</option>
+											<option>Cheriska</option>
+											<option>Malias</option>
+											<option>Kamines</option>
+											<option>Austranas</option>
+										</select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Toggle Switch-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-element-list mg-t-30">
+                        <div class="cmp-tb-hd">
+                            <h2>Toggle Switch</h2>
+                            <p>Material Design look alike Toggle Switches based on Radio Box.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="nk-int-mk sl-dp-mn tg-dp-mn">
+                                    <h2>Option Group</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act fm-cmp-mg">
+                                            <div class="nk-toggle-switch">
+                                                <label for="ts1" class="ts-label">Toggle Swith Default</label>
+                                                <input id="ts1" type="checkbox" hidden="hidden">
+                                                <label for="ts1" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="toggle-select-act sm-res-mg-t-10">
+                                            <div class="nk-toggle-switch disabled">
+                                                <label for="tsd" class="ts-label">Toggle Swith Disable</label>
+                                                <input id="tsd" type="checkbox" hidden="hidden" checked="checked" disabled="disabled">
+                                                <label for="tsd" class="ts-helper"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Form Element area End-->
+
+    <!-- Datepicker area Start-->
+    <div class="datepicker-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="datepicker-int mg-t-30">
+                        <div class="cmp-tb-hd">
+                            <h2>Date Picker</h2>
+                            <p>Date picker widget based on twitter bootstrap</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group nk-datapk-ctm form-elet-mg" id="data_1">
+                                    <label>Simple data input format</label>
+                                    <div class="input-group date nk-int-st">
+                                        <span class="input-group-addon"></span>
+                                        <input type="text" class="form-control" value="03/19/2018">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group nk-datapk-ctm form-elet-mg" id="data_2">
+                                    <label>One Year view</label>
+                                    <div class="input-group date nk-int-st">
+                                        <span class="input-group-addon"></span>
+                                        <input type="text" class="form-control" value="03/19/2018">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group nk-datapk-ctm form-elet-mg" id="data_3">
+                                    <label>Decade view</label>
+                                    <div class="input-group date nk-int-st">
+                                        <span class="input-group-addon"></span>
+                                        <input type="text" class="form-control" value="03/19/2018">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Datepicker area End-->
+
+    <!-- Summernote area Start-->
+    <div class="summernote-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="summernote-wrap mg-t-30">
+                        <div class="cmp-tb-hd">
+                            <h2>HTML Editor</h2>
+                            <p>Super Simple WYSIWYG Editor on Bootstrap</p>
+                        </div>
+                        <div class="cmp-tb-hd bsc-smp-sm">
+                            <label>Basic Example</label>
+                        </div>
+                        <div class="html-editor"></div>
+                        <div class="cmp-tb-hd mg-t-20">
+                            <h2>Click to edit</h2>
+                            <p>You can edit content on the fly</p>
+                        </div>
+                        <div class="summernote-clickable">
+                            <button class="btn btn-primary btn-sm hec-button">Click here to edit the content
+                                </button>
+                            <button class="btn btn-success btn-sm hec-save" style="display:none;">Save</button>
+                        </div>
+                        <div class="html-editor-click">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula erat sit amet aliquam vehicula. Aliquam aliquet et risus et consequat. Quisque ultrices nulla eu magna vulputate, quis varius massa tempor. Suspendisse
+                                sed condimentum purus, eget consequat dolor. Fusce aliquet ultricies porta. Nunc semper commodo leo at maximus. Duis maximus maximus leo, id lobortis nisi aliquam sit amet. Nullam vel ex id augue scelerisque congue sit
+                                amet eget urna.</p>
+                        </div>
+                        <div class="cmp-tb-hd mg-t-20 air-mode-ctn">
+                            <h2>Air-mode</h2>
+                            <p>Air-mode gives clearer interface with hiddened toolbar. To reveal toolbar, select a text below where you want to shape up. </p>
+                        </div>
+                        <div class="html-editor-airmod" contenteditable="true">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod quam vel lacinia facilisis. Sed condimentum nisi vel ante maximus, sit amet vestibulum leo euismod. Curabitur viverra faucibus nisi eu molestie. Donec convallis
+                                finibus felis porttitor tristique. Nulla pretium est et ante dignissim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Summernote area End-->
+
+<div th:replace="admin/footer :: footerBody"></div>
+<div th:replace="admin/footer :: footerFragment"></div>
+<!-- Input Mask JS
+    ============================================ -->
+<script th:src="@{/js/jasny-bootstrap.min.js}"></script>
+<!-- rangle-slider JS
+    ============================================ -->
+<script th:src="@{/js/rangle-slider/jquery-ui-1.10.4.custom.min.js}"></script>
+<script th:src="@{/js/rangle-slider/jquery-ui-touch-punch.min.js}"></script>
+<script th:src="@{/js/rangle-slider/rangle-active.js}"></script>
+<!-- datapicker JS
+    ============================================ -->
+<script th:src="@{/js/datapicker/bootstrap-datepicker.js}"></script>
+<script th:src="@{/js/datapicker/datepicker-active.js}"></script>
+<!-- bootstrap select JS
+    ============================================ -->
+<script th:src="@{/js/bootstrap-select/bootstrap-select.js}"></script>
+<!--  color-picker JS
+    ============================================ -->
+<script th:src="@{/js/color-picker/farbtastic.min.js}"></script>
+<script th:src="@{/js/color-picker/color-picker.js}"></script>
+<!--  notification JS
+    ============================================ -->
+<script th:src="@{/js/notification/bootstrap-growl.min.js}"></script>
+<script th:src="@{/js/notification/notification-active.js}"></script>
+<!--  summernote JS
+    ============================================ -->
+<script th:src="@{/js/summernote/summernote-updated.min.js}"></script>
+<script th:src="@{/js/summernote/summernote-active.js}"></script>
+<!-- dropzone JS
+    ============================================ -->
+<script th:src="@{/js/dropzone/dropzone.js}"></script>
+<!--  wave JS
+    ============================================ -->
+<script th:src="@{/js/wave/waves.min.js}"></script>
+<script th:src="@{/js/wave/wave-active.js}"></script>
+<!--  chosen JS
+    ============================================ -->
+<script th:src="@{/js/chosen/chosen.jquery.js}"></script>
+</body>
+
+</html>

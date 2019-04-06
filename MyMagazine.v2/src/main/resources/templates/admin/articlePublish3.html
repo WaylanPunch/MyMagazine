@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor Sample</title>
+	<script th:src="@{/plugins/ckeditor/ckeditor.js}"></script>
+	<script th:src="@{/plugins/ckeditor/samples/js/sample.js}"></script>
+	<link rel="stylesheet" th:href="@{/plugins/ckeditor/samples/css/samples.css}">
+</head>
+<body id="main">
+
+<main>
+
+	<div class="adjoined-bottom">
+		<div class="grid-container">
+			<div class="grid-width-100">
+				<div id="editor">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</main>
+
+
+<script>
+	initSample();
+</script>
+
+</body>
+</html>

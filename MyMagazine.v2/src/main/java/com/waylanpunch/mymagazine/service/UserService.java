@@ -28,4 +28,16 @@ public class UserService implements IUserService {
         criteria.andUserIdIsNotNull();
         return userMapper.selectByExample(userExample);
     }
+
+    @Override
+    public User findUserById(Integer userId) {
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andUserIdEqualTo(userId);
+        List<User> users = userMapper.selectByExample(userExample);
+        if (null != users && users.size() > 0) {
+            return users.get(0);
+        }
+        return null;
+    }
 }
